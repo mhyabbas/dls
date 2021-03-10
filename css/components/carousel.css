@@ -9,13 +9,13 @@
 
 .splide__pagination__page {
 	margin: 0 8px;
+	padding: 0;
 	width: 12px;
 	height: 12px;
 	background-color: #E0E0E0;
 	border-radius: 50%;
 	border: none;
 	cursor: pointer;
-	-webkit-appearance: none;
 }
 
 .splide__pagination__page:focus {
