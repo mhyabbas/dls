@@ -45,7 +45,6 @@ if (document.querySelector('.animation') != null) {
 
 		let iconsLength1 = icons1.length;
 		for(let i = 0 ; i < iconsLength1; i++) {
-			// icons1[i].style.display = "block";
 			gsap.set(icons1[i], {x:"random(-200,1400,50)",y:"random(200,1000,50)",scale:0,opacity:0,transformOrigin:"100% 100%"});
 			moveX(icons1[i]);
 			moveY(icons1[i]);
@@ -53,7 +52,6 @@ if (document.querySelector('.animation') != null) {
 
 		let iconsLength2 = icons2.length;
 		for(let i = 0 ; i < iconsLength2; i++) {
-			// icons2[i].style.display = "block";
 			gsap.set(icons2[i], {fill:"random(['white','#0e73b6','#1D7C99'])",x:"random(-200,1400,50)",y:"random(200,1000,50)",scale:0,opacity:0,transformOrigin:"100% 100%"});
 			moveX(icons2[i]);
 			moveY(icons2[i]);
@@ -61,27 +59,22 @@ if (document.querySelector('.animation') != null) {
 
 		// iPad
 		let ipad = document.querySelector('.animation__ipad');
-		// ipad.style.display = "block";
 		gsap.set(ipad, {opacity:0,y:"+=100px"});
 
 		// iPhone
 		let iphone = document.querySelector('.animation__iphone');
-		// iphone.style.display = "block";
 		gsap.set(iphone, {opacity:0,y:"+=100px"});
 
 		// Card 1
 		let card1 = document.querySelector('.animation__card1');
-		// card1.style.display = "block";
 		gsap.set(card1, {opacity:0,x:"-=50px"});
 
 		// Card 2
 		let card2 = document.querySelector('.animation__card2');
-		// card2.style.display = "block";
 		gsap.set(card2, {opacity:0,x:"-=50px"});
 
 		// Card 3
 		let card3 = document.querySelector('.animation__card3');
-		// card3.style.display = "block";
 		gsap.set(card3, {opacity:0,x:"-=50px"});
 
 		// Timeline

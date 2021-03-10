@@ -21,18 +21,21 @@
 
 .animation__icon {
 	position: absolute;
+	display: block;
 	width: 200px;
 	height: auto;
 	fill: #41c2dc;
 }
 
 .animation__ipad {
+	display: block;
 	width: 650px;
 	height: auto;
 }
 
 .animation__iphone {
 	position: absolute;
+	display: block;
 	right: -125px;
 	bottom: 0;
 	width: 0;
@@ -41,6 +44,7 @@
 
 .animation__card1 {
 	position: absolute;
+	display: block;
 	left: 30%;
 	top: 30px;
 	width: 200px;
@@ -52,6 +56,7 @@
 
 .animation__card2 {
 	position: absolute;
+	display: block;
 	left: 25%;
 	top: 102px;
 	width: 270px;
@@ -63,6 +68,7 @@
 
 .animation__card3 {
 	position: absolute;
+	display: block;
 	left: 30%;
 	top: 195px;
 	width: 200px;
