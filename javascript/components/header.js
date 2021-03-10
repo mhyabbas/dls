@@ -2,10 +2,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 if (document.querySelector('.animation') != null) {
 
-	let randomX = random(-30, 30);
-	let randomY = random(-30, 30);
-	let randomTime = random(3, 5);
-
+	// Create background icons
 	function createIcons(num) {
 		let animation = document.querySelector('.animation');
 		let container = document.querySelector('.animation .container');
@@ -20,27 +17,24 @@ if (document.querySelector('.animation') != null) {
 		}
 	}
 
-	function moveX(target, direction) {
-		gsap.to(target, randomTime(), {
-			x: "+=" + randomX(direction),
+	function moveX(target) {
+		gsap.to(target, {
+			duration: "random(3,5,1)",
+			x: "+=" + "random(-50,50,5)",
 			ease: Sine.easeInOut,
 			onComplete: moveX,
-			onCompleteParams: [target, direction * -1]
+			onCompleteParams: [target]
 		});
 	}
 
-	function moveY(target, direction) {
-		gsap.to(target, randomTime(), {
-			y: "+=" + randomY(direction),
+	function moveY(target) {
+		gsap.to(target, {
+			duration: "random(3,5,1)",
+			y: "+=" + "random(-50,50,5)",
 			ease: Sine.easeInOut,
 			onComplete: moveY,
-			onCompleteParams: [target, direction * -1]
+			onCompleteParams: [target]
 		});
-	}
-
-	function random(min, max) {
-		const delta = max - min;
-		return (direction = 1) => (min + delta * Math.random()) * direction;
 	}
 
 	createIcons(8);
@@ -53,16 +47,16 @@ if (document.querySelector('.animation') != null) {
 		for(let i = 0 ; i < iconsLength1; i++) {
 			icons1[i].style.display = "block";
 			gsap.set(icons1[i], {x:"random(-200,1400,50)",y:"random(200,1000,50)",scale:0,opacity:0,transformOrigin:"100% 100%"});
-			moveX(icons1[i], 1);
-			moveY(icons1[i], -1);
+			moveX(icons1[i]);
+			moveY(icons1[i]);
 		}
 
 		let iconsLength2 = icons2.length;
 		for(let i = 0 ; i < iconsLength2; i++) {
 			icons2[i].style.display = "block";
 			gsap.set(icons2[i], {fill:"random(['white','#0e73b6','#1D7C99'])",x:"random(-200,1400,50)",y:"random(200,1000,50)",scale:0,opacity:0,transformOrigin:"100% 100%"});
-			moveX(icons2[i], -1);
-			moveY(icons2[i], 1);
+			moveX(icons2[i]);
+			moveY(icons2[i]);
 		}
 
 		// iPad
