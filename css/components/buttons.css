@@ -1,0 +1,33 @@
+.btn {
+	position: relative;
+	vertical-align: middle;
+	display: -webkit-inline-box;
+	display: -ms-inline-flexbox;
+	display: inline-flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+    padding: 10px 40px;
+	background-color: white;
+	border: 2px solid transparent;
+	border-radius: 5px;
+	-webkit-box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+	        box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+	color: #2F96DB;
+	font-size: 18px;
+	font-weight: 700;
+	text-align: center;
+	text-decoration: none;
+}
+
+.btn--outline {
+	background: none;
+	border-color: #0091FF;
+	-webkit-box-shadow: none;
+	        box-shadow: none;
+	color: #3999FF;
+	font-weight: 600;
+}

@@ -1,0 +1,118 @@
+.header {
+	position: relative;
+	padding-top: 120px;
+	background-color: #0CF8E7;
+	background: -o-linear-gradient(136.69deg, #0CF8E7 0%, #41C3DD 43.29%, #0E73B6 100%);
+	background: linear-gradient(313.31deg, #0CF8E7 0%, #41C3DD 43.29%, #0E73B6 100%);
+    overflow: hidden;
+}
+
+.animation .container {
+	position: relative;
+}
+
+.animation__wrapper {
+	position: relative;
+	margin: 0 auto;
+	padding-left: 60px;
+	width: 710px;
+}
+
+.animation__icon {
+	display: none;
+	position: absolute;
+	width: 200px;
+	height: auto;
+	fill: #41c2dc;
+}
+
+.animation__ipad {
+	display: none;
+	width: 650px;
+	height: auto;
+}
+
+.animation__iphone {
+	display: none;
+	position: absolute;
+	right: -125px;
+	bottom: 0;
+	width: 0;
+	height: 0;
+}
+
+.animation__card1 {
+	display: none;
+	position: absolute;
+	left: 30%;
+	top: 30px;
+	width: 200px;
+	height: auto;
+	border-radius: 13px;
+	box-shadow: 0 20px 20px 0 rgba(0,0,0,0.1);
+}
+
+.animation__card2 {
+	display: none;
+	position: absolute;
+	left: 25%;
+	top: 102px;
+	width: 270px;
+	height: auto;
+	border-radius: 13px;
+	box-shadow: 0 20px 20px 0 rgba(0,0,0,0.1);
+}
+
+.animation__card3 {
+	display: none;
+	position: absolute;
+	left: 30%;
+	top: 195px;
+	width: 200px;
+	height: auto;
+	border-radius: 13px;
+	box-shadow: 0 20px 20px 0 rgba(0,0,0,0.1);
+}
+
+@media all and (min-width: 1024px) {
+	.header {
+		min-height: 100%;
+		text-align: center;
+	}
+
+	.animation__wrapper {
+		padding-left: 0;
+		width: 850px;
+	}
+
+	.animation__ipad {
+		width: 850px;
+	}
+
+	.animation__iphone {
+		display: none;
+		position: absolute;
+		right: -125px;
+		bottom: 0;
+		width: 250px;
+		height: auto;
+	}
+
+	.animation__card1 {
+		left: -80px;
+		top: 140px;
+		width: 300px;
+	}
+
+	.animation__card2 {
+		left: -130px;
+		top: 250px;
+		width: 400px;
+	}
+
+	.animation__card3 {
+		left: -80px;
+		top: 390px;
+		width: 300px;
+	}
+}
