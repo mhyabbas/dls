@@ -20,7 +20,7 @@
 }
 
 .animation__icon {
-	display: none;
+	/*display: none;*/
 	position: absolute;
 	width: 200px;
 	height: auto;
@@ -28,13 +28,13 @@
 }
 
 .animation__ipad {
-	display: none;
+	/*display: none;*/
 	width: 650px;
 	height: auto;
 }
 
 .animation__iphone {
-	display: none;
+	/*display: none;*/
 	position: absolute;
 	right: -125px;
 	bottom: 0;
@@ -43,7 +43,7 @@
 }
 
 .animation__card1 {
-	display: none;
+	/*display: none;*/
 	position: absolute;
 	left: 30%;
 	top: 30px;
@@ -54,7 +54,7 @@
 }
 
 .animation__card2 {
-	display: none;
+	/*display: none;*/
 	position: absolute;
 	left: 25%;
 	top: 102px;
@@ -65,7 +65,7 @@
 }
 
 .animation__card3 {
-	display: none;
+	/*display: none;*/
 	position: absolute;
 	left: 30%;
 	top: 195px;
@@ -92,7 +92,7 @@
 	}
 
 	.animation__iphone {
-		display: none;
+		/*display: none;*/
 		position: absolute;
 		right: -125px;
 		bottom: 0;
