@@ -95,18 +95,22 @@
 		grid-auto-flow: column;
 		width: 100%;
 	}
+
 	.carousel--about .splide__list > *:nth-child(1) {
 		-ms-grid-row: 1;
 		-ms-grid-column: 1;
 	}
+
 	.carousel--about .splide__list > *:nth-child(2) {
 		-ms-grid-row: 3;
 		-ms-grid-column: 1;
 	}
+
 	.carousel--about .splide__list > *:nth-child(3) {
 		-ms-grid-row: 1;
 		-ms-grid-column: 3;
 	}
+
 	.carousel--about .splide__list > *:nth-child(4) {
 		-ms-grid-row: 3;
 		-ms-grid-column: 3;
