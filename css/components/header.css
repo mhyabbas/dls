@@ -16,6 +16,7 @@
 	margin: 0 auto;
 	padding-left: 60px;
 	width: 710px;
+	min-height: 425px;
 }
 
 .animation__icon {
@@ -83,6 +84,7 @@
 	.animation__wrapper {
 		padding-left: 0;
 		width: 850px;
+		min-height: 560px;
 	}
 
 	.animation__ipad {
