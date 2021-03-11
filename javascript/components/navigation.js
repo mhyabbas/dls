@@ -25,7 +25,8 @@ function closeNav() {
     toggle.querySelector("a").innerHTML = "<svg><use xlink:href='#icon-toggle'/></svg>"; 
 }
 
-document.querySelectorAll('.nav__link').forEach(function(e) {
+let link = Array.prototype.slice.call(document.querySelectorAll(".nav__link"));
+link.forEach(function(e) {
     e.addEventListener('click', closeNav);
 });
 
