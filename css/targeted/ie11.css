@@ -1,8 +1,8 @@
 @media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none), screen and (min-width: 1024px) {  
 
 	.carousel--about .splide__list {
-		-ms-grid-columns: (1fr)[2];
-		-ms-grid-rows: (1fr)[2];
+		-ms-grid-columns: 1fr 30px 1fr;
+		-ms-grid-rows: 1fr 30px 1fr;
 	}
 
 }
