@@ -2,7 +2,7 @@
 
 	.carousel--about .splide__list {
 		-ms-grid-columns: (1fr)[2];
-		grid-template-columns: repeat(2, 1fr);
+		-ms-grid-rows: (1fr)[2];
 	}
 
 }
