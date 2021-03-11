@@ -35,6 +35,7 @@ section {
 
 .half-wrapper {
     padding: 0;
+    overflow: hidden;
 }
 
 .half {
@@ -62,6 +63,7 @@ section {
 }
 
 .bg--interpret {
+    visibility: hidden;
     min-height: 450px;
     background-image: url(../assets/interpreter.png);
     background-position: center center;
@@ -70,6 +72,7 @@ section {
 }
 
 .bg--pract {
+    visibility: hidden;
     min-height: 450px;
     background-image: url(../assets/practitioner.png);
     background-position: center center;

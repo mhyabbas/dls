@@ -92,7 +92,6 @@
 		grid-template-columns: auto auto;
 		-ms-grid-rows: 1fr 30px 1fr;
 		grid-template-rows: auto auto;
-		grid-auto-flow: column;
 		width: 100%;
 	}
 
